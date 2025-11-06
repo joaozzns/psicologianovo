@@ -39,7 +39,7 @@ const About = () => {
                 </p>
 
                 <p>
-                  Sou pós-graduada em Terapia Cognitivo-Comportamental e pós-graduanda em Psicopatologia. Acredito na importância de um atendimento ético, acolhedor e embasado na ciência.
+                  Sou especialista em Terapia Cognitivo-Comportamental e em Psicopatologia (estudo dos transtornos mentais) pelo Grupo PBE. Pós-graduanda em Transtorno Bipolar e formação em DBT (Terapia Comportamental Dialética). Acredito na importância de um atendimento ético, acolhedor e embasado na ciência.
                 </p>
 
                 <p>
@@ -68,6 +68,10 @@ const About = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    Formação em Terapia Comportamental Dialética (DBT)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
                     Intensivo em Prevenção do Suicídio – Grupo PBE
                   </li>
                   <li className="flex items-start">
@@ -76,7 +80,7 @@ const About = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    Mini-curso em Terapia Comportamental Dialética (DBT) - Grupo PBE
+                    Intensivo em Terapia Comportamental Dialética (DBT) - Grupo PBE
                   </li>
                 </ul>
               </div>
