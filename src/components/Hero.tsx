@@ -29,7 +29,7 @@ const Hero = () => {
                 </p>
                 
                 <p>
-                  Se você vive com depressão, transtorno bipolar ou ansiedade, saiba que não está só, e que é possível viver com mais equilíbrio e bem-estar.
+                  Meu propósito é te ajudar a compreender seus padrões, dar novos significados às experiências que marcaram sua história e desenvolver estratégias para construir estabilidade emocional e retomar o protagonismo da sua vida.
                 </p>
               </div>
             </div>
