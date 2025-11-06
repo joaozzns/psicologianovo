@@ -72,7 +72,9 @@ const Specialties = () => {
 
           {/* CTA */}
           <div className="text-center mt-16">
-            
+            <p className="text-muted-foreground mb-6">
+              Pronto(a) para dar o primeiro passo?
+            </p>
           </div>
         </div>
       </div>

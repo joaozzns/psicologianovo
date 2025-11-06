@@ -84,7 +84,6 @@ const Footer = () => {
                   <Mail className="w-4 h-4 text-primary" />
                   <span className="text-background/80">graciela.souza.oliveira@gmail.com</span>
                 </div>
-                
               </div>
             </div>
           </div>

@@ -82,12 +82,18 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
-          
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-serif font-bold text-foreground mb-6">
+              Entre em Contato
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Estou aqui para ouvir você. Entre em contato para agendar sua sessão 
+              ou tirar suas dúvidas.
+            </p>
+            <div className="w-24 h-1 bg-primary mx-auto mt-6"></div>
+          </div>
 
-          <div className="grid lg:grid-cols-2 gap-16">
-            {/* Contact Form */}
-            
-
+          <div className="grid lg:grid-cols-1 gap-16">
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
