@@ -43,7 +43,7 @@ const About = () => {
                 </p>
 
                 <p>
-                  Com escuta empática, trabalho para oferecer não apenas alívio dos sintomas, mas também compreensão, educação emocional e estratégias práticas que ajudam você a lidar melhor com suas oscilações de humor, pensamentos negativos e crises de ansiedade ou impulsividade.
+                  Com escuta empática, trabalho para oferecer não apenas alívio dos sintomas, mas também compreensão, regulação emocional e estratégias práticas que ajudam você a lidar melhor com suas oscilações de humor, pensamentos negativos e crises de ansiedade ou impulsividade.
                 </p>
 
                 <p>
