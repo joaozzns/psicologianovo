@@ -58,6 +58,9 @@ const Contact = () => {
       info: "(21) 97939-1820",
       action: "Conversar",
       onClick: () => {
+        if (typeof window.gtag_report_conversion === 'function') {
+                window.gtag_report_conversion(undefined); 
+             }
         const whatsappUrl = `https://wa.me/5521979391820?text=${encodeURIComponent('Olá Graciela. Gostaria de agendar uma sessão. Podemos conversar?')}`;
         window.open(whatsappUrl, '_blank');
       }
