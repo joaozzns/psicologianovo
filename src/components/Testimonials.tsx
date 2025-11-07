@@ -71,7 +71,7 @@ const Testimonials = () => {
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Histórias reais de pessoas que encontraram o caminho para uma vida 
-              mais equilibrada e feliz através da psicoterapia.
+              mais equilibrada através da psicoterapia.
             </p>
             <div className="w-24 h-1 bg-primary mx-auto mt-6"></div>
           </div>
