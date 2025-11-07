@@ -32,6 +32,9 @@ const Header = () => {
               Depoimentos
             </button>
             <Button onClick={() => {
+             if (typeof window.gtag_report_conversion === 'function') {
+                window.gtag_report_conversion(undefined); 
+             }
             const whatsappUrl = `https://wa.me/5521979391820?text=${encodeURIComponent('Olá Graciela. Gostaria de agendar uma sessão. Podemos conversar?')}`;
             window.open(whatsappUrl, '_blank');
           }} className="primary-gradient text-primary-foreground hover:scale-105 transition-smooth elegant-shadow">
@@ -61,6 +64,9 @@ const Header = () => {
                 Depoimentos
               </button>
               <Button onClick={() => {
+              if (typeof window.gtag_report_conversion === 'function') {
+                window.gtag_report_conversion(undefined); 
+             }
             const whatsappUrl = `https://wa.me/5521979391820?text=${encodeURIComponent('Olá Graciela. Gostaria de agendar uma sessão. Podemos conversar?')}`;
             window.open(whatsappUrl, '_blank');
             setIsMenuOpen(false);
