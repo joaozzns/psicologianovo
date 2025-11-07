@@ -5,6 +5,9 @@ const WhatsAppButton = () => {
   const message = "Olá Graciela. Gostaria de agendar uma sessão. Podemos conversar?";
   
   const handleWhatsAppClick = () => {
+    if (typeof window.gtag_report_conversion === 'function') {
+                window.gtag_report_conversion(undefined); 
+             }
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
